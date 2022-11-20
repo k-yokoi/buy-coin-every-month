@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "buy-coin-every-month"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-7eetrx0f06et"
+s3_prefix = "buy-coin-every-month"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "GmoCoinApiKey=\"GMO_COIN_API_KEY\" GmoCoinSecretKey=\"GMO_COIN_SECRET_KEY\""
+image_repositories = []
